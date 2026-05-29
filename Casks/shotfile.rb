@@ -10,6 +10,11 @@ cask "shotfile" do
 
   app "ShotFile.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/ShotFile.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/shotfile",
     "~/Library/Preferences/com.shotfile.app.plist",
