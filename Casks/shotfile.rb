@@ -1,8 +1,8 @@
 cask "shotfile" do
-  version "1.1.1"
-  sha256 "c30ede108942190562db9112343d2f5a2a10e41d0b30498651d6057935958dc6"
+  version "1.2.0"
+  sha256 "c2cb0df4657908d27e6fec276c42653b6feae82e197b553ccd1f3a52ee82f414"
 
-  url "https://github.com/z4rd0z1/shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64-mac.zip"
+  url "https://github.com/z4rd0z1/homebrew-shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64-mac.zip"
 
   name "ShotFile"
   desc "Name your screenshot, move it to a folder"
