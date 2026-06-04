@@ -1,6 +1,6 @@
 cask "shotfile" do
-  version "1.5.0"
-  sha256 "fb8aaa65fe733740a4dbdb307012eff7a14323ada2256fc81a34c91a177ea03b"
+  version "1.6.0"
+  sha256 "a23b7585a07f40d496583d7d138b3998e3a1ad39d03e5649459abd62dc683b9c"
 
   url "https://github.com/z4rd0z1/homebrew-shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64-mac.zip"
 
