@@ -6,7 +6,7 @@ cask "shotfile" do
 
   name "ShotFile"
   desc "Name your screenshot, move it to a folder"
-  homepage "https://shotfile.vercel.app/"
+  homepage "https://shotfile.app/"
 
   app "ShotFile.app"
 
