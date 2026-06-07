@@ -1,6 +1,6 @@
 cask "shotfile" do
-  version "1.6.3"
-  sha256 "77aed2bce511a919797bcee06614bbb88a765f1f6c53fb7a51b64cbcd899623e"
+  version "1.6.4"
+  sha256 "3ced007014c8807f595e69a5e564adb7e180cf98847f568ebcc470b584ae8167"
 
   url "https://github.com/z4rd0z1/homebrew-shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64-mac.zip"
 
@@ -9,11 +9,6 @@ cask "shotfile" do
   homepage "https://shotfile.app/"
 
   app "ShotFile.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/ShotFile.app"]
-  end
 
   zap trash: [
     "~/Library/Application Support/shotfile",
