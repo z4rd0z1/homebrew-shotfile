@@ -1,6 +1,6 @@
 cask "shotfile" do
-  version "0.9.2"
-  sha256 "07bc5910842f11a3f2e7f530a946aebf8607fb42144b0e19cd5b0b79bbc9933b"
+  version "0.9.3"
+  sha256 "ac406110cbb7ce98043a4cbd8c8bee988210ea5075f8dc3a584cef69569afce1"
 
   url "https://github.com/z4rd0z1/homebrew-shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64.dmg"
 
