@@ -1,6 +1,6 @@
 cask "shotfile" do
-  version "0.9.4"
-  sha256 "c847f7c6688e8a29a30d01f2eaf1af0d6ef163b7c6888fcd492c7096d110c8b9"
+  version "1.0.1"
+  sha256 "8d38bbfc275a4a72e134c4aade7542e19420b2c5d536d2920ea89e8768b79c92"
 
   url "https://github.com/z4rd0z1/homebrew-shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64.dmg"
 
@@ -11,7 +11,8 @@ cask "shotfile" do
   app "ShotFile.app"
 
   zap trash: [
-    "~/Library/Application Support/shotfile",
+    "~/Library/Application Support/ShotFile",
     "~/Library/Preferences/com.shotfile.app.plist",
+    "~/.shotfile",
   ]
 end
