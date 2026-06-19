@@ -8,11 +8,13 @@ cask "shotfile" do
   desc "Name your screenshot, move it to a folder"
   homepage "https://shotfile.app/"
 
+  depends_on macos: ">= :big_sur"
+
   app "ShotFile.app"
 
   zap trash: [
+    "~/.shotfile",
     "~/Library/Application Support/ShotFile",
     "~/Library/Preferences/com.shotfile.app.plist",
-    "~/.shotfile",
   ]
 end
