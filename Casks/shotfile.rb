@@ -3,12 +3,11 @@ cask "shotfile" do
   sha256 "8d38bbfc275a4a72e134c4aade7542e19420b2c5d536d2920ea89e8768b79c92"
 
   url "https://github.com/z4rd0z1/homebrew-shotfile/releases/download/v#{version}/ShotFile-#{version}-arm64.dmg"
-
   name "ShotFile"
   desc "Name your screenshot, move it to a folder"
   homepage "https://shotfile.app/"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "ShotFile.app"
 
