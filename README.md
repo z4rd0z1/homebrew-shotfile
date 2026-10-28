@@ -1,6 +1,8 @@
 # homebrew-shotfile
 
-Homebrew tap for ShotFile.
+Homebrew tap for [ShotFile](https://shotfile.app).
+
+Annotate on the image, bake in a short note, and file it in the right project folder under a clear name. Hand that file to a colleague or an LLM instead of explaining the screen again.
 
 ## Install
 
