@@ -1,8 +1,12 @@
-# homebrew-shotfile
+# Homebrew tap for ShotFile
 
-Homebrew tap for [ShotFile](https://shotfile.app).
+This is a small helper repo so you can install ShotFile with Homebrew on a Mac.
 
-Annotate on the image, bake in a short note, and file it in the right project folder under a clear name. Hand that file to a colleague or an LLM instead of explaining the screen again.
+## What ShotFile is
+
+ShotFile lives in the menu bar. When you take a screenshot, it helps you write a short note on the image, give the file a clear name, and put it in the right folder. So you can find it later, and so you can send it to someone without explaining the screen all over again.
+
+More on the product: [shotfile.app](https://shotfile.app)
 
 ## Install
 
